@@ -1,2 +1,1 @@
-# nivelatorioUTN
-curso nivelatorio de programacion para la Universidad Tecnologica Nacional de Mar del Plata
+# Repositorio de clases del curso nivelatorio de programacion para la UTN
