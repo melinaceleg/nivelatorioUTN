@@ -7,6 +7,7 @@
 
 Algoritmo menucondicionales
 	Definir opcion Como Entero;
+	Hacer
 	Escribir "Bienvenido al menu de usuario"
 	Escribir "1- Registrar Usuario";
 	Escribir "2- Login Usuario";
@@ -15,28 +16,6 @@ Algoritmo menucondicionales
 	Escribir "5- Salir";
 	Escribir "Ingrese una opcion";
 	leer opcion;
-	
-//	si opcion == 1 Entonces
-//		Escribir "Yendo al menu registrar usuario....";
-//	SiNo
-//		si opcion == 2 Entonces
-//			Escribir "Yendo al menu login usuario...";
-//		SiNo
-//			si opcion == 3 Entonces
-//				Escribir "YEndo al menu configuracion..";
-//			SiNo
-//				si opcion == 4 Entonces
-//					Escribir "Yendo al menu help...";
-//				SiNo
-//					si opcion == 5 Entonces
-//						Escribir "Saliendo del menu..."
-//					SiNo
-//						Escribir "Ha elegido una opcion incorrecta";
-//					FinSi
-//				FinSi
-//			FinSi
-//		FinSi
-//	FinSi
 	
 	Segun opcion Hacer
 		1:
@@ -52,6 +31,7 @@ Algoritmo menucondicionales
 		De Otro Modo:
 			Escribir "Opcion incorrecta"
 	Fin Segun
+	Mientras Que opcion <> 5;
 	
 	
 	
